@@ -15,7 +15,10 @@ export default defineConfig({
     sidebar: [
       {
         text: "笔记",
-        items: [{ text: "SSE 流式输出" }, { text: "关于", link: "/about" }],
+        items: [
+          { text: "SSE 流式输出", link: "/sse" },
+          { text: "关于", link: "/about" },
+        ],
       },
     ],
 
