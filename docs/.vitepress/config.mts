@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/computer-learning-note/",
   title: "computer-learning-note",
   description: "计算机学习笔记",
   themeConfig: {
