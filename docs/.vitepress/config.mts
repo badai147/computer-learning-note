@@ -1,7 +1,8 @@
 import { defineConfig } from "vitepress"
+import { withMermaid } from "vitepress-plugin-mermaid"
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid({
   base: "/computer-learning-note/",
   title: "computer-learning-note",
   description: "计算机学习笔记",
